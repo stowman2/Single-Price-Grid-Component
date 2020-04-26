@@ -1,0 +1,118 @@
+body {
+  font-family: 'Karla', sans-serif;
+  font-weight: 400;
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.body-heading, .cost {
+  color: #ffff;
+  font-size: 2.7rem;
+}
+
+.benifits, .price-box, .title-copy {
+  padding: 5%;
+}
+
+/* Title Section */
+#title {
+  text-align: center;
+  margin: auto;
+}
+
+.title-copy {
+  text-align: left;
+}
+
+ #title h1{
+  color: #2ab2af;
+  padding-bottom: 2rem;
+  font-size: 3.7rem;
+}
+
+#title h2  {
+  color: #c0df34;
+  padding-bottom: 1rem;
+  font-size: 2.7rem;
+}
+
+#title p  {
+  color: #808080;
+  font-size: 2.2rem;
+}
+
+/* main section */
+.price-grid {
+  margin-left: 0;
+  margin-right: 0;
+  position: relative;
+  padding: 0;
+}
+
+.full-copy, .list-points {
+  color: #f5f5f5;
+}
+
+.list-points, .time {
+  line-height: 1.7;
+  font-size: 1.2rem;
+  font-size: 1.2rem;
+  color: #b3e7ef;
+}
+
+.price-box {
+  background-color: #2ab2af;
+}
+
+.benifits {
+  background-color: #4abebd;
+}
+
+.body-heading {
+  padding-bottom: 1rem;
+}
+
+.cost-line {
+  margin-bottom: 0;
+}
+
+.cost {
+  font-size: 3.2rem;
+  font-weight: bold;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.full-copy {
+  font-size: 1.5rem;
+  padding-bottom: 1.7rem;
+}
+.block {
+  display: block;
+  border-radius: 10px;
+  width: 100%;
+  border: none;
+  background-color: #c0df34;
+  color: #ffff;
+  padding: 14px 28px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  text-align: center;
+}
+
+.block:hover {
+  background-color: #95b01c;
+  }
+.time {
+  margin-left: 1rem;
+  display: inline-block;
+  vertical-align: middle;
+}
